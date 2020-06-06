@@ -33,9 +33,6 @@ public class CourseServiceTest{
 
         assertEquals( course.getCourseName( ), pojo.getCourseName( ) );
         assertEquals( course.getDurationHours( ), pojo.getDurationHours( ) );
-        //this should make the test fail
-        assertNotNull( null );
-
     }
 
 }
